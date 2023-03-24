@@ -1,0 +1,77 @@
+h1 {
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.profile-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-page-container {
+    width: 400px;
+    padding: 50px;
+    box-shadow: 0px 0px 21px rgb(0 0 0/ 20%);
+    background: #fff;
+    height: 550px;
+    text-align:initial;
+    border-radius: 20px;
+}
+
+.form-control {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border-color: #0000002e;
+    font-size: 20px;
+}
+
+label.form-label {
+    width: 100%;
+    display: block;
+    color: #0000007d;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.btn-action {
+    display: block;
+    margin-left: 237px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+button.btn-cancle {
+    padding: 10px;
+    width: 75px;
+    border-radius: 10px;
+    background-color: #0b24e721;
+    color: blue;
+    border: none;
+}
+
+button.btn-cancle:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+button.btn-update {
+    padding: 10px;
+    width: 75px;
+    border-radius: 10px;
+    background-color: blue;
+    color: #fff;
+    margin-right: 20px;
+    border: none;
+}
+
+button.btn-update:hover {
+    cursor: pointer;
+    background-color: #0b24e721;
+    color: blue;
+}
