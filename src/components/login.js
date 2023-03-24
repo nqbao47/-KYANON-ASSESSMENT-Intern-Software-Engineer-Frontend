@@ -27,7 +27,7 @@ export default function Login() {
               <input
                 id='password'
                 className='form-control'
-                type={showPassword ? 'text' : 'password'} // Sử dụng biến showPassword để kiểm tra và thay đổi giá trị của thuộc tính "type"
+                type={showPassword ? 'text' : 'password'} 
                 name='password'
               />
               <label htmlFor="show-password-checkbox" className='checkBox'>
@@ -35,7 +35,7 @@ export default function Login() {
                   id="show-password-checkbox"
                   className='checkBox'
                   type="checkbox"
-                  onClick={handleCheckbox} // Khi click vào ô check box, gọi hàm handleCheckbox để thay đổi giá trị của biến showPassword
+                  onClick={handleCheckbox} 
                 />
                 Show password
               </label>
