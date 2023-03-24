@@ -35,7 +35,7 @@ export default function Login() {
                   id="show-password-checkbox"
                   className='checkBox'
                   type="checkbox"
-                  onClick={handleCheckbox} 
+                  onClick={handleCheckbox}
                 />
                 Show password
               </label>
@@ -50,3 +50,4 @@ export default function Login() {
   );
 }
 
+//
