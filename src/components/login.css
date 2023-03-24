@@ -1,0 +1,48 @@
+h1 {
+    justify-content: center;
+    display: flex;
+}
+
+.login-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page-container {
+    width: 400px;
+    padding: 50px;
+    box-shadow: 0px 0px 21px rgb(0 0 0/ 20%);
+    background: #fff;
+    height: 550px;
+    text-align:initial;
+}
+
+.form-control {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border-color: #0000002e;
+    font-size: 20px;
+}
+
+label.form-label {
+    width: 100%;
+    display: block;
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+button.btn-submit {
+    padding: 10px;
+    width: 130px;
+    border-radius: 10px;
+    background-color: blue;
+    color: #fff;
+    margin-top: 5px;
+    margin-left: 68%;
+}
