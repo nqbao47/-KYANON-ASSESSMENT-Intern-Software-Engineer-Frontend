@@ -26,3 +26,5 @@ You can try to login with my default account to test the login function:
 
   - email: nqbao1401@gmail.com
   - password: 123
+
+![image](https://user-images.githubusercontent.com/81466050/227679069-7c0c8a00-3ff0-4452-b4b3-ea71b0bcece1.png)
