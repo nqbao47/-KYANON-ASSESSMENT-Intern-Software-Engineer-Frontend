@@ -28,6 +28,7 @@ If you aren't satisfied with the build tool and configuration choices, you can `
   - After filling in the form completely, you can click on 'Update' button to information update. 
   - To follow the flow of data you can use 'Console' tab in your browser, you can update multiple times to see if the data has been modified by continuing to click the 'Update' button
 
+![image](https://user-images.githubusercontent.com/81466050/227678675-ad38bbe9-bfeb-4224-82c4-14303465059c.png)
 
 
 
