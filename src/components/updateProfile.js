@@ -26,10 +26,11 @@ export default function UpdateProfile() {
 
   function handleProfileUpdate(event) {
     event.preventDefault();
-    console.log('form value: ', fullName);
-    console.log('form value: ', birthDay);
-    console.log('form value: ', email);
-    console.log('form value: ', phoneNumber);
+    console.log('name value: ', fullName);
+    console.log('birthday value: ', birthDay);
+    console.log('email value: ', email);
+    console.log('phone value: ', phoneNumber);
+    console.log('');
   };
 
   function handleCancel(){
@@ -116,4 +117,3 @@ export default function UpdateProfile() {
     </div>
   );
 }
-
