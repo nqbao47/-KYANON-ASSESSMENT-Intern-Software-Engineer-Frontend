@@ -45,4 +45,19 @@ button.btn-submit {
     color: #fff;
     margin-top: 5px;
     margin-left: 68%;
+    border:none;
+}
+
+button.btn-submit:hover {
+    cursor: pointer;
+    background-color: #0b24e721;
+    color: blue;
+}
+
+.error-alert {
+    color: red;
+}
+
+.success-alert {
+    color: green;
 }

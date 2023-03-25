@@ -4,6 +4,17 @@ import "./login.css";
 export default function Login() {
   const [showPassword, setShowPassword] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
+  const [isError, setEror] = useState(false);
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
+  function handleEmail(event) {
+    setEmail(event.target.value);
+  }
+
+  function handlePassword(event) {
+    setPassword(event.target.value);
+  }
 
   function handleCheckbox() {
     setShowPassword(!showPassword);
@@ -11,7 +22,11 @@ export default function Login() {
 
   function handleLogin(event) {
     event.preventDefault();
-    setIsSuccess(true);
+    if (email === 'nqbao1401@gmail.com' && password === '123') {
+      setIsSuccess(true);
+    } else {
+      setEror(true);
+    }
   }
 
   return (
@@ -28,6 +43,7 @@ export default function Login() {
               className="form-control"
               type="email"
               name="email"
+              onChange={handleEmail}
               required
             ></input>
           </div>
@@ -42,6 +58,7 @@ export default function Login() {
                 className="form-control"
                 type={showPassword ? "text" : "password"}
                 name="password"
+                onChange={handlePassword}
                 required
               />
               <label htmlFor="show-checkbox" className="checkBox">
@@ -58,7 +75,8 @@ export default function Login() {
           <button type="submit" className="btn-submit">
             Sign in
           </button>
-          {isSuccess && <div className="alert">Signed in successfully !</div>}
+          {isSuccess && <div className="success-alert">Signed in successfully</div>}
+          {isError && <div className="error-alert" >Incorrect email or password</div>}
         </form>
       </div>
     </div>
