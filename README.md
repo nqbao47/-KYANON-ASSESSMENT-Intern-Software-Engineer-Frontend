@@ -21,6 +21,9 @@ It correctly bundles React in production mode and optimizes the build for the be
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
 # How to test my Login-Form-Page
+Analyze the authentication flow for the login page (client side - mandatory, server side - optional)
+![IMG_20230325_091949](https://user-images.githubusercontent.com/81466050/227681862-489fa255-8914-4820-a467-d2c2cc2ad6b3.jpg)
+
 
 You can try to login with my default account to test the login function:
 
